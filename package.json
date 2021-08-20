@@ -18,7 +18,13 @@
   ],
   "author": "Joe",
   "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-md ./"
+    }
+  },
   "dependencies": {
+    "husky": "^7.0.1",
     "lint-md-cli": "^0.1.2"
   },
   "lint-staged": {
